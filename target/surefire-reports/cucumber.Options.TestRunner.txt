@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.Options.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.17 s <<< FAILURE! - in cucumber.Options.TestRunner
+Verify if delete booking functionality is working(Validating create booking API)  Time elapsed: 1.651 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[405]> but was:<[201]>
+

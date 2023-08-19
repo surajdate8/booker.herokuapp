@@ -1,0 +1,184 @@
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "suraj",
+    "lastname": "date",
+    "totalprice": 111,
+    "depositpaid": true,
+    "additionalneeds": "Lunch",
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    }
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 194
+Etag: W/"c2-AvuVzAxSHznpMSn3GurRIHzjtFs"
+Date: Sat, 19 Aug 2023 13:23:43 GMT
+Via: 1.1 vegur
+
+{
+    "bookingid": 1263,
+    "booking": {
+        "firstname": "suraj",
+        "lastname": "date",
+        "totalprice": 111,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-01"
+        },
+        "additionalneeds": "Lunch"
+    }
+}
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/1263
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 165
+Etag: W/"a5-GO7h+2ioyT+jxWF08XdHhLUtfOA"
+Date: Sat, 19 Aug 2023 13:23:46 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "suraj",
+    "lastname": "date",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "Lunch"
+}
+Request method:	PUT
+Request URI:	https://restful-booker.herokuapp.com/booking/1263
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "suraj",
+    "lastname": "date",
+    "totalprice": 111,
+    "depositpaid": true,
+    "additionalneeds": "Lunch",
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    }
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 165
+Etag: W/"a5-GO7h+2ioyT+jxWF08XdHhLUtfOA"
+Date: Sat, 19 Aug 2023 13:23:48 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "suraj",
+    "lastname": "date",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "Lunch"
+}
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/10
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 144
+Etag: W/"90-+IKHpo2HN7IZ57xLAQeLJGUJe98"
+Date: Sat, 19 Aug 2023 13:23:49 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Susan",
+    "lastname": "Ericsson",
+    "totalprice": 200,
+    "depositpaid": false,
+    "bookingdates": {
+        "checkin": "2016-01-18",
+        "checkout": "2016-05-22"
+    }
+}
+Request method:	DELETE
+Request URI:	https://restful-booker.herokuapp.com/booking/14
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 405 Method Not Allowed
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/plain; charset=utf-8
+Content-Length: 18
+Etag: W/"12-UGJMK66P4abaBlq0vKHJaCKuGCA"
+Date: Sat, 19 Aug 2023 13:23:51 GMT
+Via: 1.1 vegur
+
+Method Not Allowed
