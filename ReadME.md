@@ -25,4 +25,4 @@
 Note : 
 - -Dcucumber.options="--tags @UpdateBooking" this is cucumber Maven argument to select and run a particular test
 - Report is stored in folder Herokuapp\target\cucumber-html-reports with file name - overview-features
-- Request and Response logs are stored in- Herokuapp/logging.txt file
+- Request and Response logs are stored in- Herokuapp/logging.txt file.
