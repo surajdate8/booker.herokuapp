@@ -27,13 +27,13 @@ Server: Cowboy
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
-Content-Length: 194
-Etag: W/"c2-AvuVzAxSHznpMSn3GurRIHzjtFs"
-Date: Sat, 19 Aug 2023 13:23:43 GMT
+Content-Length: 193
+Etag: W/"c1-dAI6TCFGxnYItq491E0Y/N0KKA0"
+Date: Sat, 19 Aug 2023 13:41:32 GMT
 Via: 1.1 vegur
 
 {
-    "bookingid": 1263,
+    "bookingid": 202,
     "booking": {
         "firstname": "suraj",
         "lastname": "date",
@@ -47,7 +47,7 @@ Via: 1.1 vegur
     }
 }
 Request method:	GET
-Request URI:	https://restful-booker.herokuapp.com/booking/1263
+Request URI:	https://restful-booker.herokuapp.com/booking/202
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -66,7 +66,7 @@ X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
 Content-Length: 165
 Etag: W/"a5-GO7h+2ioyT+jxWF08XdHhLUtfOA"
-Date: Sat, 19 Aug 2023 13:23:46 GMT
+Date: Sat, 19 Aug 2023 13:41:35 GMT
 Via: 1.1 vegur
 
 {
@@ -81,7 +81,7 @@ Via: 1.1 vegur
     "additionalneeds": "Lunch"
 }
 Request method:	PUT
-Request URI:	https://restful-booker.herokuapp.com/booking/1263
+Request URI:	https://restful-booker.herokuapp.com/booking/202
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -111,7 +111,7 @@ X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
 Content-Length: 165
 Etag: W/"a5-GO7h+2ioyT+jxWF08XdHhLUtfOA"
-Date: Sat, 19 Aug 2023 13:23:48 GMT
+Date: Sat, 19 Aug 2023 13:41:37 GMT
 Via: 1.1 vegur
 
 {
@@ -143,20 +143,21 @@ Server: Cowboy
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
-Content-Length: 144
-Etag: W/"90-+IKHpo2HN7IZ57xLAQeLJGUJe98"
-Date: Sat, 19 Aug 2023 13:23:49 GMT
+Content-Length: 169
+Etag: W/"a9-mSmyyDGFiGVz1fy0Z9RN/B0D4XU"
+Date: Sat, 19 Aug 2023 13:41:38 GMT
 Via: 1.1 vegur
 
 {
-    "firstname": "Susan",
-    "lastname": "Ericsson",
-    "totalprice": 200,
-    "depositpaid": false,
+    "firstname": "Mark",
+    "lastname": "Jones",
+    "totalprice": 412,
+    "depositpaid": true,
     "bookingdates": {
-        "checkin": "2016-01-18",
-        "checkout": "2016-05-22"
-    }
+        "checkin": "2015-11-06",
+        "checkout": "2023-08-20"
+    },
+    "additionalneeds": "Breakfast"
 }
 Request method:	DELETE
 Request URI:	https://restful-booker.herokuapp.com/booking/14
@@ -171,14 +172,14 @@ Headers:		Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-HTTP/1.1 405 Method Not Allowed
+HTTP/1.1 201 Created
 Server: Cowboy
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: text/plain; charset=utf-8
-Content-Length: 18
-Etag: W/"12-UGJMK66P4abaBlq0vKHJaCKuGCA"
-Date: Sat, 19 Aug 2023 13:23:51 GMT
+Content-Length: 7
+Etag: W/"7-rM9AyJuqT6iOan/xHh+AW+7K/T8"
+Date: Sat, 19 Aug 2023 13:41:40 GMT
 Via: 1.1 vegur
 
-Method Not Allowed
+Created

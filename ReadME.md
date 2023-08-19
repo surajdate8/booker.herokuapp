@@ -19,7 +19,7 @@
 
 #How to execute
 1. Import/Clone the project to local repo/eclipse.
-2. create a new Maven goal as - clean test -Dcucumber.options="--tags @UpdateBooking"
+2. create a new Maven goal as - clean test verify -Dcucumber.options="--tags @UpdateBooking"
 3. Execute by clicking on Run button
 
 Note : 
