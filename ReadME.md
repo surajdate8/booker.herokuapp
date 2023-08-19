@@ -1,7 +1,7 @@
 #Project Description
 - This API project developed to test REST API services for - booker.herokuapp.com
 
-##Project Contains-
+##Project Contains- 
 	1.com.test.utilities - Testdatabuild.java: to build payload using POJO and Utils.java:	reasuable utilities
 	2.cucumber.Option - TestRunner file
 	3.feature - This file contains feature that will be tested 
